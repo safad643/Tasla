@@ -1,0 +1,106 @@
+.car1{
+  text-align: center;
+  color: white;
+  padding-top: 4.5vh;
+}
+.carname{
+  font-family:Helvetica;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+.caroffer{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+  font-weight:bold;
+  margin: 0;
+  text-decoration: underline;
+  transition: text-decoration-thickness 1s;
+}
+.caroffer:hover{
+  text-decoration-thickness: 3px;
+}
+.price{
+  font-weight: bold;
+}
+.b1,.b2{
+  padding-inline: 5vw;
+  padding-top:10px;
+  padding-bottom:10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.b1{
+  background-color: rgb(62, 106, 225);
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.b2{
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.buttondiv{
+  position:absolute;
+  bottom:5vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.page1{
+  margin: 0;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image:url('../images/image1.avif');
+  background-size: cover; 
+  background-position: center;
+}
+#page2 {
+  background-image: url("../images/image2.avif");
+}
+#page3 {
+  background-image: url("../images/image3.avif");
+}
+.p3p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+  font-weight:bold;
+  margin: 0;
+  position: relative;
+  bottom: 5px;
+}
+.p3d{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight:bold;
+  margin: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.p3d:hover{
+  text-decoration-thickness: 2px;
+}
+#page4 {
+  background-image: url("../images/image4.avif");
+}
+#page5 {
+  background-image: url("../images/image5.avif");
+}
+#truck button{
+  background-color:black;
+  color: grey;
+  border-radius:0px ;
+}
+#page6 {
+  background-image: url("../images/image6.avif");
+}
+#page7 {
+  background-image: url("../images/image7.avif");
+}
+#page8 {
+  background-image: url("../images/image8.avif");
+}
+#page9 {
+  background-image: url("../images/image9.avif");
+}
